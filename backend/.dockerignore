@@ -1,0 +1,11 @@
+# Ignore the Git directory
+.git
+
+# Ignore Node.js modules if you have any
+node_modules
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp

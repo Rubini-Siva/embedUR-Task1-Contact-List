@@ -1,0 +1,25 @@
+Commands used for this task :
+
+1) In Visual Studio, docker-compose down  ( To remove the container )
+
+2) docker-compose up --build   ( Add container after making changes )
+
+3) In the terminal, cd "E:\Applications\Postgre SQL\postgresql-17.2-1-windows-x64-binaries\pgsql\bin"
+
+4) Run to start the database server before running docker, pg_ctl -D ^"E^:^\Applications^\Postgre^ SQL^\postgresql^-17^.2^-1^-windows^-x64^-binaries^\data^" -l logfile start
+
+5) Run to stop the database server, pg_ctl -D ^"E^:^\Applications^\Postgre^ SQL^\postgresql^-17^.2^-1^-windows^-x64^-binaries^\data^" -l logfile stop
+
+6) In the terminal, cd "F:\embedUR Mini Project\backend"
+
+7) Run to check the database in docker, docker-compose exec db psql -U postgres -d postgres
+
+8) Move to particular table, \c task
+
+9) SELECT * FROM contact;
+
+10) INSERT INTO  contact (name, gender, location, email, phone, dob, photo, role) VALUES ('Indira Gandhi', 'Female', 'Delhi, India', 'indira.gandhi@example.com', '+91 88721 24346', '1969-11-19', './img/img10.jpg', 'Former Prime Minister, India');
+
+11) SELECT * FROM contact;
+
+12) DELETE FROM contact WHERE name = 'Indira Gandhi';
