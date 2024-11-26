@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #f3f4f6; /* Light gray background */
+}
+
+.container {
+  width: 98%; /* Full width */
+  height: 100%; /* Full height */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0; /* Ensure no padding is applied */
+  margin-bottom:10px ;
+
+}
+
+.contact-list {
+  flex-grow: 1; /* Allow this section to grow and take available space */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+input[type="text"], select {
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus, select:focus {
+  border-color: #3b82f6; /* Tailwind's blue-500 */
+}
+
+button {
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Table styling */
+table {
+  margin-top: 9px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb; /* Light gray border */
+}
+
+td p {
+  margin: 0; /* Remove default margin */
+}
+
+img{
+  height: 250px;
+  width: 280px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+#heading{
+  background-color: rgb(218, 211, 211);
+  width: 1535px;
+  height: 70px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  color: #000000;
+}
+
+#no{
+  padding-bottom: 20px;
+  padding-top: 14px;
+  border-color: #000000;
+  border-radius: 5px;
+  border-style:inset;
+  border-width: 10px;
+  margin-left: 100px;
+}
