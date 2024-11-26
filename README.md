@@ -2,7 +2,7 @@ Task 1 :
 
 Develop a basic contact list application that includes a list of contacts and when clicked it displays the details of the contact. Make a search bar that helps to search for a contact from the list. Containerize the application using Docker and host the same via a docker.
 
-Video link of the output : 
+Video link of the output : https://drive.google.com/file/d/1TawDM4I7p4RiAz9Gn5wnfuzuvNt2uwmG/view
 
 Technology Stack Used :
 
