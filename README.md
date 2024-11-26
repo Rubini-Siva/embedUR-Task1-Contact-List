@@ -13,7 +13,7 @@ Technology Stack Used :
 
 Description :
 
-   The Database will contain all the contact information. I will be fetched and displayed on the webpage using the Golang server which interacts with the backend and frontend. Changes such as adding new contacts, deleting contacts etc.. will be reflected in the webpage by refreshing it. This application only displays the contact list where we can search particular contacts by name, gender, role, and location. Also, When click the details button, details about the specific contact will be displayed.
+   The Database contains all the contact information. It will be fetched and displayed on the webpage using the Golang server which interacts with the backend and frontend. Manipulation such as adding new contacts, deleting contacts etc.. in the database will be reflected in the webpage by refreshing it. This application only displays the contact list where we can search particular contacts by name, gender, role, and location. Also, When click the details button, details about the specific contact will be displayed. In Docker, separate images will be created for task1 (frontend), backend, and postgres (database). The images once pushed, will be containerized. Start the container to host the webpage.
 
 Run the application : 
 
@@ -22,7 +22,10 @@ Run the application :
 3) Install npm, PostgreSQL, Golang, and Tailwind CSS. Once installed, check the version available for confirmation.
 4) Run command in task1 folder (frontend): " npm install " for required packages.
 5) Run the command " docker-compose up --build " outside the task1 and backend folder. 
-6) Now, browse http://localhost to run the web application.
+6) Run the command " docker-compose push " to push the images in the docker.
+7) Now, Move to Containers in Docker and run the container and host the application.
+8) Browse http://localhost to run the web application.
+9) Stop the containers.
 
 *** Screenshots are attached on the screenshot folder. ***
 
